@@ -27,7 +27,7 @@ function ModalEdit({
       </Modal.Content>
       <Modal.Actions>
         <Button onClick={() => setIsOpen(false)}>Close</Button>
-        <Button onClick={()=> setIsOpen(false)} primary>Ok</Button>
+        <Button onClick={()=> setIsOpen(false)} primary>ok</Button>
       </Modal.Actions>
     </Modal>
   );
